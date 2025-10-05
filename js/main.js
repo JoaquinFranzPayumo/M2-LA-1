@@ -10,7 +10,7 @@ document.body.appendChild( renderer.domElement );
 
 
 const texLoader = new THREE.TextureLoader();
-const texture = texLoader.load('./Textures/dvd-logo.png');
+const texture = texLoader.load('./dvd/dvd-logo.png');
 const geometry = new THREE.PlaneGeometry(2, 1);
 
 const tintColor = new THREE.Color(0xFFFFFF);
